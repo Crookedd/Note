@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nn">#51ffad</color>
+    <color name="light_purple">#FFE1D5E7</color>
+    <color name="light">#bce3c9</color>
+    <color name="dark_salmon">#f1eec1</color>
+    <color name="salmon">#48c072</color>
+    <color name="mint">#00ffe5</color>
+    <color name="mod">#00928c</color>
+    <color name="Modern_Mint">#6a796c</color>
+</resources>
