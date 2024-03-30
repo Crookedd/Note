@@ -5,9 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_purple"
-    tools:context=".AddEditNoteActivity">
+    tools:context=".AddEditNoteActivity"
+    android:alpha="0.8">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/chibi_totoro"
+        android:scaleType="centerCrop" />
 
-    <!--edit text for note title-->
     <EditText
         android:id="@+id/idEdtNoteName"
         android:layout_width="389dp"
@@ -17,11 +22,11 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="@color/light"
-        android:hint="Введите Название"
+        android:hint="Название"
         android:textColor="@color/mod"
-        android:textColorHint="@color/mod"/>
+        android:textColorHint="@color/mod"
+        android:alpha="0.8"/>
 
-    <!--edit text for note description-->
     <EditText
         android:id="@+id/idEdtNoteDesc"
         android:layout_width="match_parent"
@@ -38,19 +43,21 @@
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:textColor="@color/mod"
-        android:textColorHint="@color/mod" />
+        android:textColorHint="@color/mod"
+        android:alpha="0.8"/>
 
-    <!--button for saving and updating a note-->
     <Button
         android:id="@+id/idBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/add_btn"
         android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:background="@color/nn"
-        android:textColorLink="@color/nn"/>
+        android:backgroundTint="@color/nn"
+        android:textColor="@color/mod"/>
 
 </RelativeLayout>

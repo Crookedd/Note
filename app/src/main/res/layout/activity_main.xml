@@ -6,7 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_purple"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:alpha="0.9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/chibi_totoro"
+        android:scaleType="centerCrop" />
+
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -14,7 +22,9 @@
         android:layout_height="match_parent"
         tools:listitem="@layout/note_rv_item"
         android:background="@color/light_purple"
-        android:id="@+id/rView"/>
+        android:id="@+id/rView"
+        android:alpha="0.8"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/idFAB"
@@ -31,6 +41,6 @@
         android:layout_marginBottom="17dp"
         android:src="@drawable/ic_add"
         app:backgroundTint="@color/nn"
-        app:tint="@color/white" />
+        app:tint="@color/mod" />
 
 </RelativeLayout>
